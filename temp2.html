@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sundar's Food Blog</title>
+    <link rel="stylesheet" href="temp2.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+      <a href="javascript:void(0)" onclick="closeSidebar()" class="close-btn"
+        >✖ Close</a
+      >
+      <a href="#food" onclick="closeSidebar()">🍴 Food</a>
+      <a href="#about" onclick="closeSidebar()">👨 About</a>
+    </nav>
+
+    <!-- Top Navigation -->
+    <header class="top-nav">
+      <div class="menu-btn" onclick="openSidebar()">☰</div>
+      <div class="site-title">🍽️ Sundar's Food Blog</div>
+      <div class="mail-btn">📧 Mail</div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Welcome to My Food World</h1>
+        <p>Delicious recipes & culinary stories</p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+      <!-- Food Grid -->
+      <section id="food" class="food-grid">
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600"
+            alt="Sandwich"
+          />
+          <h3>The Perfect Sandwich</h3>
+          <p>A Real NYC Classic with fresh veggies and meat.</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://imgs.search.brave.com/HthcQ4F_XttG0xBbn1NalyuyIUorQjYQCO0CuXmbENI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTIx/MzY0MDU2Ny9waG90/by9ncmlsbGVkLXJp/YmV5ZS1iZWVmLXN0/ZWFrLXdpdGgtcm9z/ZW1hcnktYW5kLXNh/bHQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPW51MEkycDhJ/OU82ZDJuQ1phVkdp/WjJoQ2p2YTNpQWRF/NHZXWk5xRmlraG89"
+            alt="Steak"
+          />
+          <h3>Grilled Steak</h3>
+          <p>Juicy, tender, and cooked to perfection.</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://imgs.search.brave.com/4Ud-HXNXzAvYZeioGPeHU17dwXkbfCKW95BF7GD83Wo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zYWxs/eXNiYWtpbmdhZGRp/Y3Rpb24uY29tL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDI0LzA3/L2JhdHRlci1vdmVy/LWZyZXNoLWNoZXJy/aWVzLmpwZw"
+            alt="Cherries"
+          />
+          <h3>Fresh Cherries</h3>
+          <p>Sweet and tangy seasonal favorites.</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1529042410759-befb1204b468?w=600"
+            alt="Pasta & Wine"
+          />
+          <h3>Pasta & Wine</h3>
+          <p>Aromatic herbs with Italian red wine.</p>
+        </div>
+      </section>
+
+      <!-- Second Grid -->
+      <section class="food-grid">
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=600"
+            alt="Popsicle"
+          />
+          <h3>Summer Popsicles</h3>
+          <p>Refreshing and fruity delights.</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600"
+            alt="Salmon"
+          />
+          <h3>Grilled Salmon</h3>
+          <p>Rich in omega-3 and flavor.</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?w=600"
+            alt="Burger"
+          />
+          <h3>Classic Burger</h3>
+          <p>Loaded with cheese and crisp veggies.</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600"
+            alt="Croissant"
+          />
+          <h3>French Croissant</h3>
+          <p>Flaky, buttery, and golden brown.</p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <h2>About Me</h2>
+        <img
+          src="WhatsApp Image 2025-09-20 at 12.45.05_feeabc5e.jpg"
+          alt="Chef"
+          class="about-img"
+        />
+        <h4>Hello! I'm Sundar</h4>
+        <h6>Foodie • Blogger • Explorer</h6>
+        <p>
+          I love exploring cuisines around the world 🌍. From street food to
+          fine dining, every dish has a story. Join me on this flavorful journey
+          where I share recipes, travel food diaries, and culinary inspirations.
+        </p>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div>
+        <h3>ABOUT</h3>
+        <p>
+          Sharing the love of food, recipes, and culinary experiences from
+          across the globe.
+        </p>
+      </div>
+      <div>
+        <h3>RECENT POSTS</h3>
+        <ul>
+          <li>
+            <img
+              src="https://imgs.search.brave.com/tGRLRwMxUkDKQ1WbyXn6b6nM_GlziysvwAOg_0ADbFo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ydW5u/aW5nb25yZWFsZm9v/ZC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDgvSGVh/bHRoeS1WZWdhbi1U/b2Z1LVRlbXBlaC1D/aGlja3BlYS1Qcm90/ZWluLVNhbGFkLTkt/NjAweDg5Ni5qcGc"
+              alt="Vegan Salad"
+            />
+            <div>
+              <span class="post-title">Vegan Salad</span><br />
+              <span>Healthy & Fresh</span>
+            </div>
+          </li>
+          <li>
+            <img
+              src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=100"
+              alt="Pizza"
+            />
+            <div>
+              <span class="post-title">Italian Pizza</span><br />
+              <span>Cheesy Goodness</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h3>POPULAR TAGS</h3>
+        <p>
+          <span class="tag">Travel</span>
+          <span class="tag">Food</span>
+          <span class="tag">Healthy</span>
+          <span class="tag">Recipes</span>
+          <span class="tag">Desserts</span>
+          <span class="tag">StreetFood</span>
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      function openSidebar() {
+        document.getElementById("sidebar").style.display = "block";
+      }
+      function closeSidebar() {
+        document.getElementById("sidebar").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
